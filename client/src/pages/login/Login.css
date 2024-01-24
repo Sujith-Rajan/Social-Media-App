@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .containerA {
+    background: url(../../.././public/social-sites.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  .containerA .login {
+    height: 70%;
+    width: 50%;
+    border: 0px solid white;
+    border-radius: 1rem;
+    background-color: rgba(217, 168, 227, 0.186);
+    box-shadow: 2px 1px 3px black;
+  }
+  .containerA .login .loginWrapper {
+    height: 100%;
+    width:90%;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .containerA .login .loginWrapper .loginLeft {
+    width:60%;
+    height: 20%;
+    flex-direction: column;
+    
+    
+  }
+  .containerA .login .loginWrapper .loginLeft .loginLogo {
+    
+    color: orange;
+    font-weight: 800;
+    font-size: 3rem;
+    text-shadow: 3px 2px 3px rgb(16, 16, 16);
+  }
+  .containerA .login .loginWrapper .loginLeft span {
+    color: rgba(7, 7, 237, 0.436);
+    font-size: 1rem;
+    text-shadow: 0px 1px 1px black;
+  }
+  .containerA .login .loginWrapper .loginRight {
+    width: 60%;
+    height: 60%;
+  }
+  .containerA .login .loginWrapper .loginRight .loginBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .containerA .login .loginWrapper .loginRight .loginBox label {
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .containerA .login .loginWrapper .loginRight .loginBox input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.429);
+  }
+  .containerA .login .loginWrapper .loginRight .loginBox .loginButton {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: rgb(14, 59, 218);
+    background: radial-gradient(circle, rgb(14, 59, 218) 13%, rgba(38, 113, 196, 0.7680322129) 84%, rgb(52, 85, 201) 94%);
+    border-radius: 5px;
+  }
+  .containerA .login .loginWrapper .loginForget {
+    height: 20%;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+  .containerA .login .loginWrapper .loginForget span {
+    color: rgb(67, 58, 58);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

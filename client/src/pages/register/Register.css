@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerB {
+    background: url(../../.././public/connect-people.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .containerB .login {
+    height: 600px;
+    width: 60%;
+    border: 0px solid white;
+    border-radius: 1rem;
+    background-color: rgba(196, 171, 201, 0.186);
+    box-shadow: 2px 1px 3px black;
+  }
+  .containerB .login .loginWrapper {
+    height: 100%;
+    
+    column-gap: 5%;
+  }
+  .containerB .login .loginWrapper .loginLeft {
+    height: 50%;
+    width: 60%;
+    text-align: center;
+  }
+  .containerB .login .loginWrapper .loginLeft .loginLogo {
+    position: relative;
+    color: orange;
+    font-weight: 800;
+    font-size: 5vw;
+    text-shadow: 3px 2px 3px rgb(97, 9, 76);
+  }
+  .containerB .login .loginWrapper .loginLeft span {
+    color: rgba(7, 7, 237, 0.436);
+    font-size: 2vw;
+    text-shadow: 0px 1px 1px black;
+  }
+  .containerB .login .loginWrapper .loginRight {
+    height: 60%;
+    width: 60%;
+  }
+  .containerB .login .loginWrapper .loginRight .loginBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 5px;
+  }
+  .containerB .login .loginWrapper .loginRight .loginBox label {
+    color: rgb(49, 45, 45);
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .containerB .login .loginWrapper .loginRight .loginBox input {
+    width: 90%;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.429);
+  }
+  .containerB .login .loginWrapper .loginRight .loginBox .loginButton {
+    width: 90%;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: rgb(14, 59, 218);
+    background: radial-gradient(circle, rgb(14, 59, 218) 13%, rgba(38, 113, 196, 0.7680322129) 84%, rgb(52, 85, 201) 94%);
+    border-radius: 5px;
+  }
+  .containerB .login .loginWrapper .loginForget {
+    height: 20%;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+  .containerB .login .loginWrapper .loginForget span {
+    color: rgb(67, 58, 58);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
